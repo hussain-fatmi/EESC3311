@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T20:04:23.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="gmZAhZpnY7vKrpc7zVIX" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T20:06:01.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6zZ_-8U6_lwYZhWYGmRD" version="15.5.9" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gcUvP2jghbVTYusqyTfN-84" value="Professor" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="222" y="370" width="200" height="86" as="geometry" />
+          <mxGeometry x="222" y="370" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gcUvP2jghbVTYusqyTfN-85" value="+ title: String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gcUvP2jghbVTYusqyTfN-84" vertex="1">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -222,11 +222,14 @@
         <mxCell id="qH-ci81VB0g3E8EAZ0NB-17" value="BiologyDepartment" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="932" y="325" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qH-ci81VB0g3E8EAZ0NB-26" value="works in" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="gcUvP2jghbVTYusqyTfN-84" target="gcUvP2jghbVTYusqyTfN-56">
+        <mxCell id="qH-ci81VB0g3E8EAZ0NB-26" value="works in" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gcUvP2jghbVTYusqyTfN-84" target="gcUvP2jghbVTYusqyTfN-56">
           <mxGeometry x="-0.3083" width="80" relative="1" as="geometry">
             <mxPoint x="259" y="513" as="sourcePoint" />
-            <mxPoint x="424" y="613.75" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="370" y="628" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="550" />
+              <mxPoint x="395" y="550" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
